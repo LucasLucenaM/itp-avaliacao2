@@ -31,7 +31,7 @@ int main(void) {
         printf("Quantidade de estudantes (1 a 10): ");
 
         if (scanf("%d", &quantidade) != 1) {
-            printf("Entrada invalida!\n");
+            printf("Entrada inválida!\n");
 
             int c;
             while ((c = getchar()) != '\n' && c != EOF) {
@@ -89,7 +89,7 @@ int main(void) {
         }
     }
 
-    //Aloca dinamicamente o vetor das medias
+    //Aloca dinamicamente o vetor das médias
     double *medias = malloc(quantidade * sizeof(double));
 
     if (medias == NULL) {
@@ -99,7 +99,7 @@ int main(void) {
 
     calcular_medias(notas, medias, quantidade);
 
-    //Calcular a media geral e a maior media
+    //Calcular a média geral e a maior média
     double soma_medias = 0.0;
     double maior_media = medias[0];
 
