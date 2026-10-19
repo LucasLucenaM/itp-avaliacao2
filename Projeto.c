@@ -3,17 +3,17 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_ALUNOS 10
-#define NUM_NOTAS 3
-#define TAM_NOME 100
+#define maxAlunos 10
+#define numNotas 3
+#define tamNome 100
 
 //Calcular a media de cada estudante
-void calcular_medias(double notas[MAX_ALUNOS][NUM_NOTAS],
+void calcular_medias(double notas[maxAlunos][numNotas],
                      double *medias, int quantidade) {
     for (int i = 0; i < quantidade; i++) {
         double soma = 0.0;
 
-        for (int j = 0; j < NUM_NOTAS; j++) {
+        for (int j = 0; j < numNotas; j++) {
             soma += notas[i][j];
         }
 
@@ -23,10 +23,10 @@ void calcular_medias(double notas[MAX_ALUNOS][NUM_NOTAS],
 
 int main(void) {
     int quantidade;
-    double notas[MAX_ALUNOS][NUM_NOTAS];
-    char nomes[MAX_ALUNOS][TAM_NOME];
+    double notas[maxAlunos][numNotas];
+    char nomes[maxAlunos][tamNome];
 
-    // Solicita a quantidade de estudantes
+    //Perguntar qual o número de alunos
     do {
         printf("Quantidade de estudantes (1 a 10): ");
 
@@ -48,20 +48,22 @@ int main(void) {
 
     } while (quantidade < 1 || quantidade > 10);
 
-    // Le os nomes e as notas
+    //Ler os nomes e as notas
     for (int i = 0; i < quantidade; i++) {
         printf("\nNome do estudante %d: ", i + 1);
-        fgets(nomes[i], TAM_NOME, stdin);
+        //Coloca os nomes no vetor nomes
+        fgets(nomes[i], tamNome, stdin);
 
         nomes[i][strcspn(nomes[i], "\n")] = '\0';
 
-        for (int j = 0; j < NUM_NOTAS; j++) {
+        for (int j = 0; j < numNotas; j++) {
             int resultado;
 
             do {
                 printf("Nota %d de %s (0 a 10): ",
                        j + 1, nomes[i]);
 
+                //Coloca as notas para cada nome
                 resultado = scanf("%lf", &notas[i][j]);
 
                 if (resultado != 1) {
@@ -80,14 +82,14 @@ int main(void) {
             } while (notas[i][j] < 0.0 ||
                      notas[i][j] > 10.0);
 
-            // Descarta caracteres restantes na linha
+            //Descarta caracteres restantes na linha
             int c;
             while ((c = getchar()) != '\n' && c != EOF) {
             }
         }
     }
 
-    // Aloca dinamicamente o vetor de medias
+    //Aloca dinamicamente o vetor das medias
     double *medias = malloc(quantidade * sizeof(double));
 
     if (medias == NULL) {
@@ -97,7 +99,7 @@ int main(void) {
 
     calcular_medias(notas, medias, quantidade);
 
-    // Calcula a media geral e a maior media
+    //Calcular a media geral e a maior media
     double soma_medias = 0.0;
     double maior_media = medias[0];
 
@@ -111,7 +113,7 @@ int main(void) {
 
     double media_geral = soma_medias / quantidade;
 
-    // Exibe o boletim
+    //Mostrar o mega boletim
     printf("\n================ BOLETIM ================\n");
     printf("%-20s %7s %7s %7s %8s %20s\n",
            "Nome", "N1", "N2", "N3", "Media", "Situacao");
