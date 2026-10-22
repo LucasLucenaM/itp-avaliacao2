@@ -12,7 +12,7 @@ da turma.
 
 O programa solicita a quantidade de estudantes, os nomes e as três notas de cada um
 
-Em seguida, calcula as médias individuais e a média geral da turma, exibe o boletim com as notas e as médias e identifica os estudantes que atingiram a meta estabelecida pelo programa
+Em seguida, calcula as médias individuais e a média geral da turma, exibe o boletim com as notas e as médias e identifica os estudantes que atingiram a meta estabelecida
 
 Por fim, imprime a maior média e os nomes dos estudantes que tiveram a maior média
 
@@ -31,6 +31,8 @@ gcc -Wall -Wextra Projeto.c -o Projeto
 3. Executar o programa
 
 ./Projeto
+
+## **Testes**
 
 ### **Teste 1**
 
