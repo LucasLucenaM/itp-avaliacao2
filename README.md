@@ -38,19 +38,19 @@ gcc -Wall -Wextra Projeto.c -o Projeto
 
 **Input:**
 
-3
-Lucas Lucena de Medeiros
-7
-6
-5
-Pietro Freire Rocha
-10
-9
-8
-Marconi Eloi Junior
-8 
-9
-10
+ 3
+ Lucas Lucena de Medeiros
+ 7
+ 6
+ 5
+ Pietro Freire Rocha
+ 10
+ 9
+ 8
+ Marconi Eloi Junior
+ 8 
+ 9
+ 10
 
 **Output:**
 
@@ -73,11 +73,11 @@ Estudante(s) com a maior media:
 
 **Input:**
 
-1
-Raimundo Antônio de Medeiros
-7.5
-6.5
-5.5
+ 1
+ Raimundo Antônio de Medeiros
+ 7.5
+ 6.5
+ 5.5
 
 **Output:**
 
