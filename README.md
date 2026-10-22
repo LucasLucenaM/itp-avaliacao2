@@ -22,15 +22,21 @@ Por fim, imprime a maior média e os nomes dos estudantes que tiveram a maior m�
 
 1. Acessar a pasta do projeto
 
+```text
 cd ~/ProjetoITP
+```
 
 2. Compilar o programa
 
+```text
 gcc -Wall -Wextra Projeto.c -o Projeto
+```
 
 3. Executar o programa
 
+```text
 ./Projeto
+```
 
 ## **Testes**
 
@@ -84,9 +90,11 @@ Raimundo Antônio de Medeiros
 7.5
 6.5
 5.5
+```
 
 **Output:**
 
+```text
 ======================= BOLETIM =======================
 
 Nome                      |     N1 |     N2 |     N3 |  Média | Situação     
