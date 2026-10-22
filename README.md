@@ -1,9 +1,12 @@
 # itp-avaliacao2
 # Projeto individual para a segunda avaliação da matéria de ITP 2026.2
 
-## **Aluno**: Lucas Lucena de Medeiros
+ **Aluno**: Lucas Lucena de Medeiros
 
 ## **Projeto escolhido**: Opção 1
+
+Uma pessoa precisa registrar três notas de cada estudante e obter um resumo dos resultados
+da turma.
 
 ## **O que faz o programa?**
 
