@@ -111,6 +111,8 @@ Estudante(s) com a maior media:
 
 ## **Link do vídeo:** 
 
+https://youtu.be/80tdjkoeXbM
+
 ## **Referências:**
 
 [RoadMap C](https://roadmap.sh/c?fl=1)
