@@ -7,7 +7,7 @@
 #define numNotas 3
 #define tamNome 100
 
-//Calcular a media de cada estudante
+//Função que calcula a media de cada estudante
 void calcular_medias(double notas[maxAlunos][numNotas],
                      double *medias, int quantidade) {
     for (int i = 0; i < quantidade; i++) {
