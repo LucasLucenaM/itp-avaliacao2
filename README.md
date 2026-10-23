@@ -113,11 +113,11 @@ Estudante(s) com a maior media:
 
 ## **Referências:**
 
-https://roadmap.sh/c?fl=1
-https://lumbar-collar-920.notion.site/2026-2-Introdu-o-T-cnica-de-Programa-o-3027b1e8c9c08369bb5b81d23244cc4a
-https://docs.github.com/pt/repositories/creating-and-managing-repositories/creating-a-new-repository
-https://docs.github.com/pt/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
-https://github.com/AmandaAilin/ReadmeTutorial
+[RoadMap C](https://roadmap.sh/c?fl=1)
+[Notion ITP 2026.2](https://lumbar-collar-920.notion.site/2026-2-Introdu-o-T-cnica-de-Programa-o-3027b1e8c9c08369bb5b81d23244cc4a)
+[Repositórios](https://docs.github.com/pt/repositories/creating-and-managing-repositories/creating-a-new-repository)
+[Adicionar arquivos no repositório](https://docs.github.com/pt/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+[Organizar Readme](https://github.com/AmandaAilin/ReadmeTutorial)
 
 
 
